@@ -17,25 +17,6 @@ $(".acc").click(function(){
   $(".dropdownMenu.acc").toggleClass("active");
 });
 
-$(".product").click(function(){
-  $(".dropdownMenu.product").toggleClass("active");
-});
-
-$(".company").click(function(){
-  $(".dropdownMenu.company").toggleClass("active");
-});
-
-$(".comp").click(function(){
-  $(".dropdownMenu.comp").toggleClass("active");
-});
-
-$(".help").click(function(){
-  $(".dropdownMenu.help").toggleClass("active");
-});
-
-$(".lang").hover(function(){
-  $(".dropdownMenu.lang").toggleClass("active");
-});
 
 
 });
