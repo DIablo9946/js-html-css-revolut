@@ -13,8 +13,8 @@
 
 $(document).ready(function(){
 
-$(".acc").click(function(){
-  $(".dropdownMenu.acc").toggleClass("active");
+$(".right a").click(function(){
+  $(this).siblings(".dropdownMenu").toggleClass("active");
 });
 
 
